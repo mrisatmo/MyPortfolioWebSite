@@ -2,10 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags for character encoding, compatibility with Internet Explorer, and responsiveness on different devices -->    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mrisatmo</title>
+    <!-- Linking to external CSS stylesheets for general styling and media queries -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -13,6 +15,7 @@
     <nav id="desktop-nav">
       <div class="logo">Mohammad Mrissat</div>
       <div>
+        <!-- Navigation links to different sections of the page -->        
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -21,15 +24,18 @@
         </ul>
       </div>
     </nav>
+    <!-- Hamburger menu navigation for mobile devices -->
     <nav id="hamburger-nav">
       <div class="logo">Mohammad Mrissat</div>
       <div class="hamburger-menu">
+          <!-- Hamburger menu icon with three horizontal bars -->        
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu-links">
+          <!-- Same navigation links as desktop, with `onclick` function to close the menu -->          
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -37,12 +43,15 @@
         </div>
       </div>
     </nav>
+    <!-- Profile section introducing Mohammad Mrissat -->
     <section id="profile">
-
       <div class="section__text">
+        <!-- Introduction text and heading -->
+
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Mohammad Mrissat</h1>
         <p class="section__text__p2">Undergradute Student at Technion</p>
+        <!-- Buttons to download CV or navigate to the contact section -->        
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -54,6 +63,7 @@
             Contact Info
           </button>
         </div>
+        <!-- Social media icons for LinkedIn and GitHub -->        
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
@@ -70,10 +80,12 @@
         </div>
       </div>
     </section>
+    <!-- About section providing more details about Mohammad Mrissat -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
+        <!-- Image and profile description -->
         <div class="section__pic-container">
           <img
             src="./assets/about-pic.png"
@@ -83,6 +95,7 @@
         </div>
         <div class="about-details-container">
           <div class="about-containers">
+            <!-- Experience and Education details -->
             <div class="details-container">
               <img
                 src="./assets/experience.png"
@@ -90,7 +103,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>0 <br /></p>
+              <p>0 <br /></p><!-- Placeholder for experience years -->
             </div>
             <div class="details-container">
               <img
@@ -102,14 +115,16 @@
               <p>Currently a first-year B.Sc. student.</p>
             </div>
           </div>
+          <!-- Additional text about education and interests -->
           <div class="text-container">
             <p>
-              Undergradute student at Data and decision sciences faculty at Technion - Israel instiute of technolgy.
+              Undergraduate student at the Faculty of Data and Decision Sciences, Technion–Israel Institute of Technology.
             </p>
             <p>Passionate about software development, with a specific interest in machine learning and autonomous robotics.</p>
           </div>
         </div>
       </div>
+      <!-- Arrow to navigate to the Experience section -->
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -117,11 +132,13 @@
         onclick="location.href='./#experience'"
       />
     </section>
+    <!-- Experience section listing relevant coursework and skills -->
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Relevant coursework listed -->
           <div class="details-container">
             <h2 class="experience-sub-title">Related Coursework:</h2>
             <div class="article-container">
@@ -136,6 +153,7 @@
                   <p></p>
                 </div>
               </article>
+              <!-- More courses listed similarly -->
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -206,6 +224,7 @@
               </article>
             </div>
           </div>
+          <!-- Skills section listing languages and tools -->        
           <div class="details-container">
             <h2 class="experience-sub-title">Skills</h2>
             <div class="article-container">
@@ -290,6 +309,7 @@
           </div>
         </div>
       </div>
+    <!-- Arrow to navigate to the Projects section -->
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
@@ -297,6 +317,7 @@
         onclick="location.href='./#projects'"
       />
     </section>
+    <!-- Projects section showcasing recent work -->
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
@@ -417,7 +438,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Mohammad Mrissat. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Mohammad Mrissat. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
