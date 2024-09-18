@@ -23,7 +23,7 @@ This repository contains the code for my personal portfolio website. It includes
 -Update your projects, skills, and contact information in the appropriate sections.<br> 
 
 # Contact
-If you have any questions, feel free to reach out:
--Email: mohammad@mrisatmo.com
--LinkedIn: Mohammad mrissat
--GitHub: mrisatmo
+If you have any questions, feel free to reach out:<br> 
+-Email: mohammad@mrisatmo.com<br> 
+-LinkedIn: Mohammad mrissat<br> 
+-GitHub: mrisatmo<br> 
