@@ -13,16 +13,16 @@ This repository contains the code for my personal portfolio website. It includes
 -About Me: Background and experience.
 -Contact Form: A way for visitors to get in touch.
 
-#Technologies Used
+# Technologies Used
 -HTML5
 -CSS3
 -JavaScript
 
-#Usage
+# Usage
 -Customize the content in the index.html and other files as needed.
 -Update your projects, skills, and contact information in the appropriate sections.
 
-#Contact
+# Contact
 If you have any questions, feel free to reach out:
 -Email: mohammad@mrisatmo.com
 -LinkedIn: Mohammad mrissat
