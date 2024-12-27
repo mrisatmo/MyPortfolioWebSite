@@ -2,10 +2,19 @@
 <html>
 <head>
   <!--
-    The base href is used to make sure all assets are loaded from the correct path. 
-    Make sure this reflects where your Flutter web app is hosted.
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/BarberShop/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -24,10 +33,6 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
-  <!-- Correct script to load Flutter's JavaScript bundle -->
-  <script src="main.dart.js" type="application/javascript"></script>
-
-  <!-- Optional: Service worker script if you're using Flutter's service worker -->
-  <script src="flutter_service_worker.js" type="application/javascript"></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
